@@ -1,0 +1,42 @@
+.tagline{
+	opacity: 0;
+	transform: translate(-100px, 0);
+	transition: 1.5s;
+}
+
+.quote{
+    opacity: 0;
+    transform: translate(100px, 0);
+    transition: 1.5s;
+}
+
+.supported{
+	opacity: 0;
+	transform: translate(0, 0);
+	transition: 3s;
+}
+
+.tagline.muncul , .quote.muncul, .supported.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.header{
+	background-image: url('../asset/wave2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 555px;
+	margin-top: -80px;
+}
+
+/* .wait{
+    opacity: 0;
+    transition: 1s;
+	transform: translate(-100, 0);
+}
+
+.wait.muncul{
+    opacity: 1;
+    transition: 1s;
+	transform: translate(100, 0);
+} */
